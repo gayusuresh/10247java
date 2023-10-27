@@ -1,0 +1,36 @@
+package classandobjects;
+
+public class MobileMain {
+
+	public static void main(String[] args) {
+		Mobile samsung=new Mobile();
+		samsung.ram=4;
+		samsung.rom=32;
+		samsung.color="grey";
+		samsung.os="windows";
+		samsung.processor="intel";
+		System.out.println("Samsung Ram=:"+samsung.ram);
+		System.out.println("Samsung Rom=:"+samsung.rom);
+		System.out.println("Samsung color=:"+samsung.color);
+		System.out.println("Samsung OS=:"+samsung.os);
+		System.out.println("Samsung processor=:"+samsung.processor);
+		samsung.communication();
+		samsung.browsing();
+		System.out.println("=========================================");
+		Mobile Honor=new Mobile();
+		Honor.ram=8;
+		Honor.rom=64;
+		Honor.color="white";
+		Honor.os="android";
+		Honor.processor="snapdragon";
+		System.out.println("Honor Ram=:"+Honor.ram);
+		System.out.println("Honor Rom=:"+Honor.rom);
+		System.out.println("Honor color=:"+Honor.color);
+		System.out.println("Honor OS=:"+Honor.os);
+		System.out.println("Honor Processor=:"+Honor.processor);
+		Honor.communication();
+		Honor.browsing();
+
+	}
+
+}
